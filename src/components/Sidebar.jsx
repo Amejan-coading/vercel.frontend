@@ -304,7 +304,7 @@ const Sidebar = ({ user, isCollapsed, setIsCollapsed }) => {
                 <div className={sidebarStyles.mobileFooter}>
                   <Link
                     onClick={() => setMobileOpen(false)}
-                    to="https://www.hexagondigitalservices.com/contact"
+                    to="https://wa.me/917015141900"
                     className={sidebarStyles.mobileFooterLink}
                   >
                     <HelpCircle size={20} className=" text-gray-500" />
