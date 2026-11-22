@@ -5,7 +5,7 @@ import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import dotenv from "dotenv";
 
-const Login = ({ onLogin, API_URL = process.env.API_BASE_URL }) => {
+const Login = ({ onLogin, API_URL = import.meta.env.API_BASE_URL }) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);

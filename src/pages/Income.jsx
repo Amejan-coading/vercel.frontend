@@ -32,7 +32,7 @@ import { INCOME_COLORS, CATEGORY_ICONS_Inc } from "../assets/color";
 import { incomeStyles as styles } from "../assets/dummyStyles";
 import dotenv from "dotenv";
 
-const API_BASE = process.env.API_BASE_URL;
+const API_BASE = import.meta.env.API_BASE_URL;
 
 //helps in converting date to ISO time
 function toIsoWithClientTime(dateValue) {

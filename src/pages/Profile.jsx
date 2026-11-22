@@ -7,7 +7,7 @@ import axios from "axios";
 import { toast, ToastContainer } from "react-toastify";
 import dotenv from "dotenv";
 
-const BASE_URL = process.env.API_BASE_URL;
+const BASE_URL = import.meta.env.API_BASE_URL;
 
 Modal.setAppElement("#root");
 // Move PasswordInput component outside of ProfilePage to prevent recreation on every render
