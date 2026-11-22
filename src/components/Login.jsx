@@ -3,7 +3,6 @@ import { loginStyles } from "../assets/dummyStyles";
 import { Eye, EyeOff, Lock, Mail, User } from "lucide-react";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
-import dotenv from "dotenv";
 
 const Login = ({ onLogin, API_URL = import.meta.env.VITE_API_URL }) => {
   const [email, setEmail] = useState("");

@@ -4,7 +4,6 @@ import img1 from "../assets/logo.png";
 import { ChevronDown, LogOut, User } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
-import dotenv from "dotenv";
 
 const BASE_URL = import.meta.env.VITE_API_URL;
 

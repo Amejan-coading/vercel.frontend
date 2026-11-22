@@ -2,7 +2,6 @@ import React, { Activity, useEffect, useMemo, useState } from "react";
 import { styles } from "../assets/dummyStyles";
 import Navbar from "./Navbar";
 import Sidebar from "./Sidebar";
-import dotenv from "dotenv";
 import {
   ArrowDown,
   ArrowUp,

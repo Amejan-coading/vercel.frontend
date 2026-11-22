@@ -21,7 +21,7 @@ import {
   ReferenceLine,
 } from "recharts";
 import axios from "axios";
-import dotenv from "dotenv";
+
 import { exportToExcel } from "../utils/exportUtils";
 import FinancialCard from "../components/FinancialCard";
 import TimeFrameSelector from "../components/TimeFrame";

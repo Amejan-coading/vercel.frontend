@@ -5,7 +5,7 @@ import { Eye, EyeOff, Lock, User, X } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import { toast, ToastContainer } from "react-toastify";
-import dotenv from "dotenv";
+
 
 const BASE_URL = import.meta.env.VITE_API_URL;
 

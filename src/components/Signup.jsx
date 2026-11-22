@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import dotenv from "dotenv";
 import { signupStyles } from "../assets/dummyStyles";
 import { useNavigate, Link } from "react-router-dom";
 import axios from "axios";

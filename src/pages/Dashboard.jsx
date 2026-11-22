@@ -1,5 +1,4 @@
 import React, { useEffect, useMemo, useState } from "react";
-import dotenv from "dotenv";
 import {
   dashboardStyles,
   trendStyles,
