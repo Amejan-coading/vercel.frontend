@@ -45,7 +45,7 @@ import {
 } from "recharts";
 import AddTransactionModal from "../components/Add";
 
-const API_BASE =import.meta.env.API_BASE_URL
+const API_BASE =import.meta.env.VITE_API_URL
 
 const getAuthHeader = () => {
   const token =

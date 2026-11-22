@@ -26,7 +26,7 @@ import {
 import axios from "axios";
 import { Outlet } from "react-router-dom";
 
-const API_BASE = process.env.API_BASE_URL;
+const API_BASE = import.meta.env.VITE_API_URL;
 const CATEGORY_ICONS = {
   Food: <Utensils className="w-4 h-4" />,
   Housing: <Home className="w-4 h-4" />,
