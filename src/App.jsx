@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import dotenv from "dotenv";
 import {
   Navigate,
   Route,
@@ -15,7 +16,7 @@ import Income from "./pages/Income";
 import Expense from "./pages/Expense";
 import Profile from "./pages/Profile";
 
-const API_URL = "http://localhost:4000";
+const API_URL = process.env.API_BASE_URL;
 
 // to get transaction from localstorage
 const getTransactionsFromStorage = () => {

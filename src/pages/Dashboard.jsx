@@ -1,4 +1,5 @@
 import React, { useEffect, useMemo, useState } from "react";
+import dotenv from "dotenv";
 import {
   dashboardStyles,
   trendStyles,
@@ -44,7 +45,7 @@ import {
 } from "recharts";
 import AddTransactionModal from "../components/Add";
 
-const API_BASE = "http://localhost:4000/api";
+const API_BASE = process.env.API_BASE_URL
 
 const getAuthHeader = () => {
   const token =

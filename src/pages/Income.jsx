@@ -30,8 +30,9 @@ import FinancialCard from "../components/FinancialCard";
 import { getTimeFrameRange, generateChartPoints } from "../components/Helpers";
 import { INCOME_COLORS, CATEGORY_ICONS_Inc } from "../assets/color";
 import { incomeStyles as styles } from "../assets/dummyStyles";
+import dotenv from "dotenv";
 
-const API_BASE = "http://localhost:4000/api";
+const API_BASE = process.env.API_BASE_URL;
 
 //helps in converting date to ISO time
 function toIsoWithClientTime(dateValue) {

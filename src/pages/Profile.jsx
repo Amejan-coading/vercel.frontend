@@ -5,8 +5,9 @@ import { Eye, EyeOff, Lock, User, X } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import { toast, ToastContainer } from "react-toastify";
+import dotenv from "dotenv";
 
-const BASE_URL = "http://localhost:4000/api";
+const BASE_URL = process.env.API_BASE_URL;
 
 Modal.setAppElement("#root");
 // Move PasswordInput component outside of ProfilePage to prevent recreation on every render
